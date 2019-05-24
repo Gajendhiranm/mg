@@ -1,0 +1,107 @@
+
+body{
+padding:0;
+margin:0;
+background:url('https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg') no-repeat;
+background-size: 150vh;
+}
+img{
+    margin-top:30px;
+    margin-left:100px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  img{
+      height:500px;
+      width:500px;
+      margin-left:10px;
+  }
+ 
+}
+
+@media screen and (max-width: 320px){
+
+   
+}
+
+@media screen and (min-width: 321px){
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    img{
+        height:700px;
+        width:700px;
+        margin-left:100px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+img{
+    margin-left:4px;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+    img{
+        margin-left:100px;
+    }
+}
+
+@media screen and (min-width: 1224px){
+
+}
+
+@media screen and (min-width: 1824px){
+
+}
+.nav-item{
+    color:black !important;
+    font-size:25px;
+}
+#circle{
+    color:white;
+  }
+   #linkedin{
+     color:black;
+  }
+   #twitter{
+     color:#1AB2E8;
+   }
+   #facebook{
+     color:#3A559F;
+   }
+   #instagram{
+   color: #E60E23;
+   }
+   #whatsapp{
+     color: #00E676;
+   }
+   H1{
+    color:white;
+       position: absolute;
+       text-align: center;
+       TOP:800PX;
+       LEFT:200PX;
+       animation-name: zoomOutRight;
+   }
+       @keyframes zoomOutRight {
+        40% {
+          opacity: 1;
+          -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+          transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+        }
+      
+        to {
+          opacity: 0;
+          -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+          transform: scale(0.1) translate3d(2000px, 0, 0);
+          -webkit-transform-origin: right center;
+          transform-origin: right center;
+        }
+      }
+   
